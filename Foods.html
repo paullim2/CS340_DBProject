@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Foods</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <header>
+        <nav class="global">
+        <h1>Foods</h1>
+        <a href="Index.html">Index</a> |
+        <a href="Customers.html">Customers</a> |
+        <a href="Couriers.html">Couriers</a> |
+        <a href="Restaurants.html">Restaurants</a> |
+        <a href="Orders.html">Orders</a> |
+        <a href="Foods.html">Foods</a> |
+        <a href="OrderDetails.html">Order Details</a>
+        </nav>
+        </header>
+    <main>
+        <h2>Overview of Foods</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Food ID</th>
+                    <th>Restaurant ID</th>
+                    <th>Food Name</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Labskaus</td>
+                    <td>$14.90</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>Sushi Platter</td>
+                    <td>$60.00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>Currywurst</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>Kasespatzle</td>
+                    <td>$20.00</td>
+                </tr>
+        </table>
+
+        <form id="Add Foods">
+            <legend>
+                <h3>Add Foods</h3>
+            </legend>
+
+            <fieldset class="field">
+                <label> Restaurant ID</label>
+                <input type="number" name="restaurant_id">
+                <label> Food Name</label>
+                <input type="text" name="food_name">
+                <label> Cost</label>
+                <input type="number" name="cost">
+
+                <input class="button" type="submit" id="addfoods" value="Add Food">
+            </fieldset>
+        </form>
+    </main>
+    </body>
+</html>

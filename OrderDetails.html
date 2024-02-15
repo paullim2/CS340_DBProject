@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <title>Order Details</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <header>
+        <nav class="global">
+        <h1>Overview of Order Details</h1>
+        <a href="Index.html">Index</a> |
+        <a href="Customers.html">Customers</a> |
+        <a href="Couriers.html">Couriers</a> |
+        <a href="Restaurants.html">Restaurants</a> |
+        <a href="Orders.html">Orders</a> |
+        <a href="Foods.html">Foods</a> |
+        <a href="OrderDetails.html">Order Details</a>
+        </nav>
+        </header>
+    <main>
+        <h2>Overview of Order Details</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>
+                        <button>Create</button>
+                    </th>
+                    <th>Order Details ID</th>
+                    <th>Order ID</th>
+                    <th>Food ID</th>
+                    <th>Order Qty</th>
+                    <th>Unit Price</th>
+                    <th>Line Total</th>
+                    <th>Unit Courier Fee</th>
+                    <th>Line Fee Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>$18.63</td>
+                    <td>$37.25</td>
+                    <td>$1.49</td>
+                    <td>$2.98</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>$75.00</td>
+                    <td>$75.00</td>
+                    <td>$6.00</td>
+                    <td>$6.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>$12.50</td>
+                    <td>$12.50</td>
+                    <td>$1.00</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>$25.00</td>
+                    <td>$25.00</td>
+                    <td>$2.00</td>
+                    <td>$2.00</td>
+                </tr>
+        </tbody>
+        </table>
+
+        <form id="Add Order Details">
+            <legend>
+                <h3>Add Foods</h3>
+            </legend>
+
+            <fieldset class="field">
+                <label> Order ID</label>
+                <input type="number" name="order_id">
+                <label> Food ID</label>
+                <input type="number" name="food_id">
+                <label> Order Qty</label>
+                <input type="number" name="order_qty">
+                <label> Unit Price</label>
+                <input type="number" name="unit_price">
+                <label> Line Total</label>
+                <input type="number" name="line_total">
+                <label> Unit Courier Fee</label>
+                <input type="number" name="unit_courier_fee">
+                <label> Line Fee Total</label>
+                <input type="number" name="line_fee_total">
+  
+                <input class="button" type="submit" id="addorderdetails" value="Add Order Details">
+                <input class="button" type="submit" id="cancel" value="Cancel">
+            </fieldset>
+        </form>
+
+    </form>
+
+    <form id="Update Order Details">
+        <legend>
+            <h3>Update Order Details</h3>
+        </legend>
+        <fieldset class="field">
+            <label> Order ID</label>
+            <input type="number" name="order_id">
+            <label> Food ID</label>
+            <input type="number" name="food_id">
+            <label> Order Qty</label>
+            <input type="number" name="order_qty">
+            <label> Unit Price</label>
+            <input type="number" name="unit_price">
+            <label> Line Total</label>
+            <input type="number" name="line_total">
+            <label> Unit Courier Fee</label>
+            <input type="number" name="unit_courier_fee">
+            <label> Line Fee Total</label>
+            <input type="number" name="line_fee_total">
+
+            <input class="button" type="submit" id="updateorderdetails" value="Update Order Details">
+            <input class="button" type="submit" id="cancel" value="Cancel">
+        </fieldset>
+    </form>
+
+    <form id="Delete Customer">
+        <legend>
+            <h3>Delete Customer</h3>
+        </legend>
+        <fieldset class="field">
+            <label> Order ID</label>
+            <input type="number" name="order_id">
+            <label> Food ID</label>
+            <input type="number" name="food_id">
+            <label> Order Qty</label>
+            <input type="number" name="order_qty">
+            <label> Unit Price</label>
+            <input type="number" name="unit_price">
+            <label> Line Total</label>
+            <input type="number" name="line_total">
+            <label> Unit Courier Fee</label>
+            <input type="number" name="unit_courier_fee">
+            <label> Line Fee Total</label>
+            <input type="number" name="line_fee_total">
+
+            <input class="button" type="submit" id="deleteorderdetails" value="Delete Order Details">
+            <input class="button" type="submit" id="cancel" value="Cancel">
+        </fieldset>
+    </form>
+        
+    </body>
+    </main>       
+</html>

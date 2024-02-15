@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Couriers</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <header>
+        <nav class="global">
+        <h1>Couriers</h1>
+        <a href="Index.html">Index</a> |
+        <a href="Customers.html">Customers</a> |
+        <a href="Couriers.html">Couriers</a> |
+        <a href="Restaurants.html">Restaurants</a> |
+        <a href="Orders.html">Orders</a> |
+        <a href="Foods.html">Foods</a> |
+        <a href="OrderDetails.html">Order Details</a>
+        </nav>
+        </header>
+    <main>
+        <h2>Overview of couriers</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Courier ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Street 1</th>
+                    <th>Street 2</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip Code</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lilly</td>
+                    <td>Flower</td>
+                    <td>Lflower@hotmail.com</td>
+                    <td>1355 Handel St</td>
+                    <td></td>
+                    <td>San Diego</td>
+                    <td>CA</td>
+                    <td>92101</td>
+                    <td>555-121-1212</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Abdu</td>
+                    <td>Azul</td>
+                    <td>aazul23@gmail.com</td>
+                    <td>4556 Johnson Dr</td>
+                    <td></td>
+                    <td>San Diego</td>
+                    <td>CA</td>
+                    <td>92142</td>
+                    <td>555-333-3333</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mesut</td>
+                    <td>Hibiscus</td>
+                    <td>soccerflower@gmail.com</td>
+                    <td>3920 Ozil Avenue</td>
+                    <td></td>
+                    <td>San Diego</td>
+                    <td>CA</td>
+                    <td>92104</td>
+                    <td>123-434-1295</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form id="Add Courier">
+            <legend>
+                <h3>Add Courier</h3>
+            </legend>
+
+            <fieldset class="field">
+                <label> First Name</label>
+                <input type="text" firstName="first_name">
+                <label> Last Name</label>
+                <input type="text" lastName="last_name">
+                <label> Email</label>
+                <input type="text" email="email">
+                <label> Street 1</label>
+                <input type="text" street="street_1">
+                <label> Street 2</label>
+                <input type="text" street="street_2">
+                <label> City</label>
+                <input type="text" city="city">
+                <label> State</label>
+                <input type="text" state="state">
+                <label> Zip Code</label>
+                <input type="text" zipCode="zip_code">
+                <label> Phone</label>
+                <input type="text" phone="phone">
+
+                <input class="button" type="submit" id="addcouriers" value="Add a courier">
+            </fieldset>
+        </form>
+    </main>
+    </body>
+</html>

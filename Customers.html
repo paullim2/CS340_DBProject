@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Customers</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <header>
+        <nav class="global">
+        <h1>Customers</h1>
+        <a href="Index.html">Index</a> |
+        <a href="Customers.html">Customers</a> |
+        <a href="Couriers.html">Couriers</a> |
+        <a href="Restaurants.html">Restaurants</a> |
+        <a href="Orders.html">Orders</a> |
+        <a href="Foods.html">Foods</a> |
+        <a href="OrderDetails.html">Order Details</a>
+        </nav>
+        </header>
+    <main>
+        <h2>Overview of customers</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>User ID</th>
+                    <th>Email</th>
+                    <th>Street 1</th>
+                    <th>Street 2</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip Code</th>
+                    <th>Phone</th>    
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lucy</td>
+                    <td>Sunval</td>
+                    <td>ss2</td>
+                    <td>Lsunval1@gmail.com</td>
+                    <td>4556 Johnson Dr</td>
+                    <td></td>
+                    <td>San Diego</td>
+                    <td>CA</td>
+                    <td>92105</td>
+                    <td>555-935-6666</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ben</td>
+                    <td>McSmart</td>
+                    <td>bm3</td>
+                    <td>bm222@gmail.com</td>
+                    <td>901 Palm Aver</td>
+                    <td></td>
+                    <td>San Diego</td>
+                    <td>CA</td>
+                    <td>92122</td>
+                    <td>343-616-8356</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tommy</td>
+                    <td>Titan</td>
+                    <td>tt1</td>
+                    <td>glenbrooksouth@gbs.com</td>
+                    <td>4000 West Lake Ave </td>
+                    <td></td>
+                    <td>Glenview</td>
+                    <td>IL</td>
+                    <td>60025</td>
+                    <td>847-729-2000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form id="Add Customer">
+            <legend>
+                <h3>Add Customer</h3>
+            </legend>
+            <fieldset class="field">
+                <label> First Name</label>
+                <input type="text" firstName="first_name">
+                <label> Last Name</label>
+                <input type="text" lastName="last_name">
+                <label> User ID</label>
+                <input type="text" userID="user_id">
+                <label> Email</label>
+                <input type="text" email="email">
+                <label> Street 1</label>
+                <input type="text" street="street_1">
+                <label> Street 2</label>
+                <input type="text" street="street_2">
+                <label> City</label>
+                <input type="text" city="city">
+                <label> State</label>
+                <input type="text" state="state">
+                <label> Zip Code</label>
+                <input type="text" zipCode="zip_code">
+                <label> Phone</label>
+                <input type="text" phone="phone">
+        
+                <input class="button" type="submit" id="addcustomers" value="Add customer">
+            </fieldset>
+        </form>
+    </main>
+    </body>
+</html>

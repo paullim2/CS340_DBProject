@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Restaurant</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    </head>
+
+    <body>
+        <header>
+        <nav class="global">
+        <h1>Restaurants</h1>
+        <a href="Index.html">Index</a> |
+        <a href="Customers.html">Customers</a> |
+        <a href="Couriers.html">Couriers</a> |
+        <a href="Restaurants.html">Restaurants</a> |
+        <a href="Orders.html">Orders</a> |
+        <a href="Foods.html">Foods</a> |
+        <a href="OrderDetails.html">Order Details</a>
+        </nav>
+        </header>
+    <main>
+        <h2>Overview of Restaurants</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Restaurant ID</th>
+                    <th>Name</th>
+                    <th>Street 1</th>
+                    <th>Street 2</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Zip Code</th>
+                    <th>Phone</th>
+                    <th>Cuisine</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Schlemmerbude</td>
+                <td>5678 Cloud Drive</td>
+                <td></td>
+                <td>San Diego</td>
+                <td>CA</td>
+                <td>92107</td>
+                <td>555-999-6666</td>
+                <td>German</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sushi Roll</td>
+                <td>123 Sun Avenue</td>
+                <td></td>
+                <td>San Diego</td>
+                <td>CA</td>
+                <td>91944</td>
+                <td>555-616-8888</td>
+                <td>Japanese</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Spatis Hipster Corner</td>
+                <td>111 Rain Street</td>
+                <td></td>
+                <td>San Diego</td>
+                <td>CA</td>
+                <td>92104</td>
+                <td>555-829-8490</td>
+                <td>German</td>
+            </tr>
+
+
+        </table>
+
+        <form id="Add Restaurant">
+            <legend>
+                <h3>Add Restaurant</h3>
+            </legend>
+
+            <fieldset class="field">
+                <label> Name</label>
+                <input type="text" firstName="name">
+                <label> Last Name</label>
+                <label> Street 1</label>
+                <input type="text" street="street_1">
+                <label> Street 2</label>
+                <input type="text" street="street_2">
+                <label> City</label>
+                <input type="text" city="city">
+                <label> State</label>
+                <input type="text" state="state">
+                <label> Zip Code</label>
+                <input type="text" zipCode="zip_code">
+                <label> Phone</label>
+                <input type="text" phone="phone">
+                <label> Cuisine</label>
+                <input type="text" cuisine="cuisine">
+
+                <input class="button" type="submit" id="addrestaurant" value="Add a restaurant">
+            </fieldset>
+        </form>
+    </main>
+    </body>
+</html>           
