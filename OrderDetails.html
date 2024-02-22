@@ -97,7 +97,7 @@
 
         <form id="Add Order Details">
             <legend>
-                <h3>Add Foods</h3>
+                <h3>Add Order Details</h3>
             </legend>
 
             <fieldset class="field">
@@ -148,11 +148,22 @@
         </fieldset>
     </form>
 
-    <form id="Delete Customer">
+    <form id="Delete OrderDetails">
         <legend>
-            <h3>Delete Customer</h3>
+            <h3>Delete Orders</h3>
         </legend>
-        <fieldset class="field">
+            <legend><h3>Delete Order Details</h3></legend>
+            <fieldset class=""fields">
+            <p>Are you sure you wish to delete the following order details?</p>
+            <input type="hidden" name="order_id">
+            <label><strong>ID:</strong></label> 1   
+            </fieldset>
+
+            <input class="button" type="submit" id="deleteorderdetails" value="Delete Order Details">
+            <input class="button" type="submit" id="cancel" value="Cancel">
+        </form>
+
+   <!--    <fieldset class="field">
             <label> Order ID</label>
             <input type="number" name="order_id">
             <label> Food ID</label>
@@ -171,7 +182,7 @@
             <input class="button" type="submit" id="deleteorderdetails" value="Delete Order Details">
             <input class="button" type="submit" id="cancel" value="Cancel">
         </fieldset>
-    </form>
+    </form>-->
         
     </body>
     </main>       
